@@ -28,7 +28,7 @@ form {
 
 }
 
-fieldset {
+input {
     width: 98.4%;
     border-radius: 5px;
     margin: 7px;
@@ -54,4 +54,13 @@ input[type="submit"] {
 
 .picture {
     width: 25%;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
 }
