@@ -7,32 +7,32 @@
 }
 
 body {
-    width: 100%;
+    width: 80%;
+    position: fixed;
 }
 
 .header {
     text-align: center;
     color: var(--background-color);
     position: relative;
-    top: -450px;
-    right: -100px;
+    top: -445px;
+    right: -280px;
 }
 
 form {
     width: 60%;
     max-width: 900px;
-    min-width: 500px;
+    min-width: 300px;
     position: relative;
-    right: -380px;
+    right: -500px;
     top: -430px;
-
 }
 
 input {
     width: 98.4%;
     border-radius: 5px;
     margin: 7px;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .flex {
@@ -46,21 +46,65 @@ input[type="submit"] {
     background-color: var(--background-color);
     color: white;
     margin-top: 20px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     position: relative;
-    right: -220px;
+    right: -200px;
 }
 
 .picture {
-    width: 25%;
+    width: 35%;
+    height: 80%;
+    position: relative;
+    left: -8px;
+    top:   -7px;
 }
 
-.sr-only {
+.first-name {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    overflow: hidden;
-    white-space: nowrap;
+    left: 15px;
+    background-color: white;
+    right: 86.5%; 
+}
+
+.last-name {
+    position: absolute;
+    left: 342px;
+    background-color: white;
+    right: 36.5%;
+}
+
+.phone {
+    position: absolute;
+    left: 15px;
+    background-color: white;
+    right: 82.5%; 
+}
+
+.email {
+    position: absolute;
+    left: 342px;
+    background-color: white;
+    right: 33%; 
+}
+
+.password {
+    position: absolute;
+    left: 15px;
+    background-color: white;  
+    right: 88%; 
+}
+
+.confirm {
+    position: absolute;
+    left: 342px;
+    background-color: white;
+    right: 28.9%; 
+}
+
+.referrer {
+    position: absolute;
+    left: 15px;
+    background-color: white;
+   right: 73%; 
 }
